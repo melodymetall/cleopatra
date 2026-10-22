@@ -29,4 +29,6 @@ Prévia local disponível. Nenhum ambiente DEV remoto ou repositório remoto foi
 
 ## Imagens
 
-Geradas com a ferramenta integrada ImageGen. Onze imagens finais em `prototype/assets/`: retrato de abertura, trono de encerramento, sete cenas das camadas, conexão simbólica e convite. O retrato principal aparece apenas uma vez. A capa do produto usa composição tipográfica própria. Prompts registrados em `image-prompts.md` e `image-prompts-v2.md`.
+Geradas com a ferramenta integrada ImageGen. Doze imagens finais em `prototype/assets/`: retrato de abertura, trono de encerramento, sete cenas das camadas, conexão simbólica, convite e portal com alfa. O retrato principal aparece apenas uma vez. A capa do produto usa composição tipográfica própria. Prompts registrados em `image-prompts.md` e `image-prompts-v2.md` e `image-prompt-portal.md`.
+
+Portal: PNG com transparência real, máscara radial complementar em CSS, desktop/mobile e abertura do diálogo verificados.
