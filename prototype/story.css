@@ -7,3 +7,6 @@ em{font-style:normal}h1,h2,h3{letter-spacing:-.025em;line-height:1.2}h1{font-siz
 
 @media(max-width:600px){.three-words{grid-template-columns:repeat(3,minmax(0,1fr));gap:5px}.three-words span{font-size:18px;padding:0 3px;overflow-wrap:anywhere}}
 @media(max-width:360px){.three-words span{font-size:16px}h1{font-size:33px}.hero{height:900px}.hero .button{font-size:8px;gap:12px;padding:18px 12px}.story-copy h3,.story-wide .story-copy h3{font-size:26px}}
+
+/* Join full-width scenes directly to the following chapter background. */
+.story-wide:not(:last-child){padding-bottom:0}
