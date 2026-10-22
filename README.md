@@ -1,4 +1,4 @@
-# Cleópatra — protótipo visual v1
+# Cleópatra — protótipo visual v2
 
 Etapa de aprovação visual anterior à implementação definitiva. Protótipo estático navegável, sem checkout, coleta de dados ou serviços de produção.
 
@@ -10,18 +10,18 @@ Também é possível abrir `prototype/index.html` diretamente. As fontes usam Go
 
 ## Direção
 
-Obsidiana, ouro envelhecido, retratos cinematográficos, tipografia editorial e sete portais agrupados em Ativar, Direcionar e Irradiar. Textos de apoio abaixo dos títulos, sem labels de seção. Copy condensada para o protótipo. Depoimentos omitidos por ausência de material real autorizado.
+Obsidiana, ouro envelhecido, tipografia Cinzel Decorative nos títulos e Forum nas passagens narrativas. Sete capítulos contínuos em lista, cada um com uma cena cinematográfica exclusiva de Cleópatra vivendo a experiência. Alternância de composições íntimas e panorâmicas, com textos abaixo de cada título. Textos de apoio abaixo dos títulos, sem labels de seção. Copy condensada para o protótipo. Depoimentos omitidos por ausência de material real autorizado.
 
 ## Validação
 
 - Sintaxe JavaScript validada com `node --check`.
-- Navegador: carregamento das imagens, navegação, níveis II e III, abertura/fechamento do diálogo de inscrição e FAQ.
-- Revisão visual desktop e mobile a 390 × 844; sem overflow horizontal no mobile.
-- Suporte a movimento reduzido, foco visível e navegação por teclado nas abas.
+- V2: sete cenas carregadas no navegador, seis links de continuidade, CTA final e modal de inscrição validados. IDs únicos, referências locais existentes, âncoras válidas e nenhuma imagem repetida no HTML.
+- Revisão visual desktop e mobile, incluindo largura útil de 312 px; sem overflow horizontal. Cinzel Decorative carregada e verificada no navegador.
+- Suporte a movimento reduzido, foco visível, links semânticos e todas as etapas acessíveis sem abas.
 
 ## Pendências para implementação final
 
-Definir preço, pagamento, garantia, plataforma, prazo de acesso, duração das ativações e URL de checkout. Receber vídeo da personagem e amostra autêntica de 20–40 segundos. Aprovar direção visual e ajuste editorial da copy. Ampliar imagens específicas da seção do método na etapa final.
+Definir preço, pagamento, garantia, plataforma, prazo de acesso, duração das ativações e URL de checkout. Receber vídeo da personagem e amostra autêntica de 20–40 segundos. Aprovar direção visual e ajuste editorial da copy.
 
 ## Ambientes
 
@@ -29,4 +29,4 @@ Prévia local disponível. Nenhum ambiente DEV remoto ou repositório remoto foi
 
 ## Imagens
 
-Geradas com a ferramenta integrada ImageGen. Arquivos finais em `prototype/assets/cleopatra.jpg` e `prototype/assets/throne.jpg`. Prompts registrados em `image-prompts.md`.
+Geradas com a ferramenta integrada ImageGen. Onze imagens finais em `prototype/assets/`: retrato de abertura, trono de encerramento, sete cenas das camadas, conexão simbólica e convite. O retrato principal aparece apenas uma vez. A capa do produto usa composição tipográfica própria. Prompts registrados em `image-prompts.md` e `image-prompts-v2.md`.
