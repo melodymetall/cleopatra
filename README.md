@@ -2,6 +2,10 @@
 
 Etapa de aprovação visual anterior à implementação definitiva. Protótipo estático navegável, sem checkout, coleta de dados ou serviços de produção.
 
+## Compartilhar e visualizar
+
+Baixe ou clone o repositório e abra `prototype/index.html` no navegador. Para servir com Node.js, siga o comando abaixo. A URL `127.0.0.1` funciona apenas no computador em que o servidor está rodando.
+
 ## Executar
 
 `node server.cjs` — abrir http://127.0.0.1:4188.
@@ -15,7 +19,7 @@ Obsidiana, ouro envelhecido, tipografia Cinzel Decorative nos títulos e Forum n
 ## Validação
 
 - Sintaxe JavaScript validada com `node --check`.
-- V2: sete cenas carregadas no navegador, seis links de continuidade, CTA final e modal de inscrição validados. IDs únicos, referências locais existentes, âncoras válidas e nenhuma imagem repetida no HTML.
+- V2: sete cenas carregadas no navegador, seis links de continuidade, CTA do portal e modal de convite validados. O botão de compra permanece desativado até a configuração do checkout. IDs únicos, referências locais existentes, âncoras válidas e nenhuma imagem repetida no HTML.
 - Revisão visual desktop e mobile, incluindo largura útil de 312 px; sem overflow horizontal. Cinzel Decorative carregada e verificada no navegador.
 - Suporte a movimento reduzido, foco visível, links semânticos e todas as etapas acessíveis sem abas.
 
@@ -25,10 +29,10 @@ Definir preço, pagamento, garantia, plataforma, prazo de acesso, duração das 
 
 ## Ambientes
 
-Prévia local disponível. Nenhum ambiente DEV remoto ou repositório remoto foi fornecido/configurado; deploy DEV remoto pendente. Produção não alterada.
+Prévia local disponível. Repositório GitHub: https://github.com/melodymetall/cleopatra. Deploy DEV remoto pendente; esta entrega compartilha os arquivos do protótipo. Produção não alterada.
 
 ## Imagens
 
 Geradas com a ferramenta integrada ImageGen. Doze imagens finais em `prototype/assets/`: retrato de abertura, trono de encerramento, sete cenas das camadas, conexão simbólica, convite e portal com alfa. O retrato principal aparece apenas uma vez. A capa do produto usa composição tipográfica própria. Prompts registrados em `image-prompts.md` e `image-prompts-v2.md` e `image-prompt-portal.md`.
 
-Portal: PNG com transparência real, máscara radial complementar em CSS, desktop/mobile e abertura do diálogo verificados.
+Portal: PNG com transparência real, máscara radial complementar em CSS, desktop/mobile e navegação até a jornada verificados.
